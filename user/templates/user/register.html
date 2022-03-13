@@ -12,8 +12,8 @@
     <meta content="" name="keywords">
 
     <!-- Favicons -->
-    <link href="{% static 'home/assets/img/favicon.png' %}" rel="icon">
-    <link href="{% static 'home/assets/img/apple-touch-icon.png' %}" rel="apple-touch-icon">
+    {% comment %} <link href="{% static 'home/assets/img/favicon.png' %}" rel="icon">
+    <link href="{% static 'home/assets/img/apple-touch-icon.png' %}" rel="apple-touch-icon"> {% endcomment %}
 
     <!-- Google Fonts -->
     <link
@@ -79,7 +79,7 @@
             <input type="password" class="form-control" id="exampleInputPassword2" placeholder="Confirm Password">
         </div><br> -->
 
-                <input type="submit" value="Submit"  class="btn-get-started scrollto"  style="background-color: #e43c5c; border: none; outline: none;"> <br>
+                <input type="submit" value="Submit"  class="btn-get-started scrollto"  style="background-color: #2540a3; border: none; outline: none;"> <br>
                 <small style="color: white;">Already have an account? <a href="{% url 'login' %}">Login</a> here</small>
 
             </form>
