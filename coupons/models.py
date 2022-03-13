@@ -17,3 +17,5 @@ class PurchasedCoupons(models.Model):
 
     def __str__(self):
         return self.unique_code
+
+        #aree
